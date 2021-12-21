@@ -1,0 +1,42 @@
+body, html {
+    font-family: "Titillium Web", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.background{
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: cover;
+}
+.banner {
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-evenly;
+    background-color: darkred;
+    height: 80px;
+    top: 0;
+    position: sticky;
+    z-index: 1;
+}
+
+.banner-img{
+    align-self: center;
+    text-align: center;
+    width: 10%;
+}
+
+.banner-text{
+    align-self: center;
+    text-align: center;
+    color: white;
+    font-size: small;
+    width: 10%;
+}
+
+a, a:visited{ 
+    color: white; 
+    text-decoration: none;
+}
+
+a:hover{opacity: 50%;}

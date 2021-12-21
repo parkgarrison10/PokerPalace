@@ -1,0 +1,43 @@
+body {
+    background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.5)), url("https://www.wsop.com/images/imagestore/flashlarge/Velo-Hero.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: green;
+    width: 300px;
+    border-radius: 5px;
+    align-items: center;
+    text-align: center;
+    color: white;
+    margin:5px;
+    padding:5px;
+    font-family: 'Open Sans', sans-serif;
+}
+.bodybox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    align-self: center;
+}
+
+h3{
+    font-size: small;
+}
+
+a{
+    color: blue;
+}
+
+#here{
+    color: red;
+    border-bottom: solid 1px red;
+}

@@ -1,0 +1,36 @@
+.background{
+    height: 100vh;
+    background-image: linear-gradient(rgba(1,1,1,1), rgba(1,1,1,.7)), url("https://cdn2.benzinga.com/files/imagecache/1024x768xUP/images/story/2012/shutterstock_101998966.jpg");
+}
+
+h1{
+    margin: 0;
+    color: white;
+}
+
+form{
+    position: absolute;
+    align-content: center;
+    top: 60%;
+    left: 52%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+input[type=text], textarea{
+    text-align: left;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 25px;
+    font-family: "Titillium Web", sans-serif;
+  }
+
+input[type=submit] {
+    background-color: darkred;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+  }  
